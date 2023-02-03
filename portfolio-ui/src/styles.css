@@ -1,7 +1,11 @@
 :root {
     --light-gray: #D3D3D3;
     --black: #000000;
+    --gray: #4D5157;
+    --blue: #1275B3;
+    --orange: #E8A20C;
 }
+
 * {
     margin: 0%;
     box-sizing: border-box;
@@ -10,4 +14,10 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1500px;
+    outline: 0px solid black;
 }
